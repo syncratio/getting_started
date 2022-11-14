@@ -1,5 +1,5 @@
 function main() {
-    let username = promptForUsername();
+    let username = promptForUsername() || 'Guest';
     let message = getUserSpecificMessage(username);
     const messageElement = document.getElementById("message");
     messageElement.innerHTML = message;
