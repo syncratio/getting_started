@@ -1,8 +1,16 @@
-#message {
-    background: #f9f9f9;
-    border: 1px solid #e5e5e5;
-    border-radius: 3px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
-    margin: 25px 0 20px;
-    padding: 12px;
+
+body {
+    background: rgb(146, 127, 40)
 }
+
+
+#message {
+    background: #8a7777;
+    border: 5px solid #ccc0c0;
+    border-radius: 10px;
+    box-shadow: 10px 10px 3px rgba(117, 15, 15, 0.849);
+    margin: 25px 1 20px;
+    padding: 20px;
+    text-align: center;
+}
+
