@@ -8,22 +8,22 @@ function main() {
 
 function getUserSpecificMessage(username) {
     if(username === "SidFj") {
-        return "You just lost $500!";
+        return "Greetings, creator.";
     }
     if(username === "syncratio") {
-        return "You just lost your time!";
+        return "You just loss your time!";
     }
-    let message = "Hello, " + username;
+    let message = "Welcome to my practice page, " + username + ".";
     return message;
 }
 
 function promptForUsername() {
-    let username = prompt("Please enter your username") || 'Guest';
+    let username = prompt("Please enter your username:") || 'Guest';
     return username;
 }
 
 function todayWeCook() {
-    document.getElementById("saul").src = "https://media.tenor.com/KEuepKkr80UAAAAd/breaking-bad-better-call-saul.gif";
+    document.getElementById("wise").src = "assets/images/pascal-debrunner-ssM9tkVKPow-unsplash1.jpg";
 }
 
 document.addEventListener("DOMContentLoaded", function(event) {
