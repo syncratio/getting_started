@@ -25,6 +25,7 @@ function promptForUsername() {
 function todayWeCook() {
     document.getElementById("wise").src = "assets/images/pascal-debrunner-ssM9tkVKPow-unsplash1.jpg";
 }
+//need to rename images
 
 document.addEventListener("DOMContentLoaded", function(event) {
     main();
