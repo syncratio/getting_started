@@ -1,20 +1,31 @@
 
 body {
-    background: rgb(146, 127, 40)
+    background: rgb(20, 20, 20)
 }
 
+p {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+img.resolution {
+    width:25%;
+    height:25%;
+}
 
 #message {
-    background: #8a7777;
-    border: 5px solid #ccc0c0;
-    border-radius: 10px;
-    box-shadow: 10px 10px 3px rgba(117, 15, 15, 0.849);
+    background: #363636;
+    border: 5px solid #ff5d2c;
+    border-radius: 18px;
     margin: 25px 1 20px;
-    padding: 20px;
-    text-align: center;
-}
-
-#wise {
-    width: 25%;
-    height: 25%;
+    margin-left: 100px;
+    margin-right: 500px;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: left;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    text-visibility:visible;
 }
