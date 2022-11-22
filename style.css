@@ -13,19 +13,28 @@ img.resolution {
     height:25%;
 }
 
+div.msg {
+    opacity: 0;
+    animation: ani 2s forwards;
+}
+
 #message {
     background: #363636;
     border: 5px solid #ff5d2c;
     border-radius: 18px;
     margin: 25px 1 20px;
-    margin-left: 100px;
-    margin-right: 500px;
+    margin-left: 50px;
+    margin-right: 1000px;
     padding: 15px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
     text-align: left;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: block;
-    text-visibility:visible;
 }
+
+@keyframes ani {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }

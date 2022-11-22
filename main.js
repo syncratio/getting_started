@@ -23,10 +23,14 @@ function promptForUsername() {
 }
 
 function todayWeCook() {
-    document.getElementById("wise").src = "assets/images/pascal-debrunner-ssM9tkVKPow-unsplash1.jpg";
+    document.getElementById("wise").src = "assets/images/take-a-look.jpg";
 }
-//need to rename images
+
+function animation() {
+    document.getElementById('ani').className="msg";
+}
 
 document.addEventListener("DOMContentLoaded", function(event) {
     main();
+    animation();
 });
