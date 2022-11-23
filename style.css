@@ -7,9 +7,15 @@ body {
 p {
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
 }
 
 h1 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+form {
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -25,6 +31,7 @@ div.msg {
 }
 
 #message {
+    width: 60%;
     background: #363636;
     border: 5px solid #ff5d2c;
     border-radius: 18px;
@@ -59,10 +66,28 @@ div.msg {
     padding: 30px 40px;
     width: 800px;
     height: 600px;
-    margin:auto;
+    margin: auto;
     display: flex;
     justify-content:space-between;
 }
+
+@media screen and (max-width:768px) {
+    .regBox,
+    .leftcolumn {
+        max-width: 100%;
+    }
+}
+
+.leftcolumn{
+    width: 450px;
+}
+
+/*.leftcolumn > div > input {
+    margin: 15px;
+}
+.leftcolumn > div > label {
+    margin: 15px;
+}*/
 
 .twoInOne {
     display: flex;
@@ -76,10 +101,56 @@ div.msg {
     justify-content: space-between;
     padding: 5px;
     width: 100%;
+    margin:0px 6px;
+}
+
+.inputBorderAdress {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    margin:0px 6px;
+}
+
+.inputButton {
+    background-color: rgb(20, 20, 20);
+    color: aliceblue;
+    border-radius: 4px;
+    border-color: #36363600;
+}
+
+.inputButton:hover {
+    background-color: #363636;
 }
 
 .picAlign {
+    width: 40%;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+.sidesMargin {
+    margin:0px 5%;
+}
+
+.topToBottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.noMargin {
+    margin: 1%
+}
+
+.generalBottomMargin {
+    margin-bottom: 10%;
+}
+
+.imgAlign {
+    height:50%;
+}
+
+.marginLeftP {
+    margin-left: 12px;
 }

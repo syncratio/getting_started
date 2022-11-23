@@ -10,35 +10,45 @@
 <body>
 <div class="align">
     <div class="regBox">
-        <div style="width: 450px;">
+        <div class="leftcolumn">
             <div >
                 <div>
                     <img src="assets/images/UnnamedLogo.png" style="width:20%;height:20%;">
-                    <h1> Create your accaunt</h1>
+                    <h1> Create your account</h1>
                 </div>
-                <div class="twoInOne">
+                <div class="twoInOne generalBottomMargin">
                     <input type="text" id="fname" class="inputBorder" placeholder="First name">
                     <label for="fname"></label>
                     <input type="text" id="lname" class="inputBorder" placeholder="Last name">
                     <label for="lname"></label>
                 </div>
-                <div class="twoInOne">
-                    <input type="text" id="nname" class="inputBorder" placeholder="Nickname">
-                    <label for="nname"></label>
+                <div class="topToBottom generalBottomMargin">
+                    <input type="text" id="adr" class="inputBorderAdress" placeholder="Address">
+                    <label for="adr"></label>
+                    <p class="noMargin marginLeftP">You can use letters, numbers & periods.</p>
+                    <input class="inputButton sidesMargin" type="button" value="Use my current email address instead">
                 </div>
-                <div class="twoInOne">
-                    <input type="password" id="pass" class="inputBorder" placeholder="Password">
-                    <label for="pass"></label>
-                    <input type="password" id="cpass" class="inputBorder" placeholder="Confirm password">
-                    <label for="cpass"></label>
+                <div class="topToBottom generalBottomMargin">
+                    <div class="twoInOne">
+                        <input type="password" id="pass" class="inputBorder" placeholder="Password">
+                        <label for="pass"></label>
+                        <input type="password" id="cpass" class="inputBorder" placeholder="Confirm password">
+                        <label for="cpass"></label>
+                    </div>
+                    <p class="noMargin marginLeftP">Use 8 or more characters with a mix of letters, numbers & symbols.</p>
+                    <form>
+                        <input type="checkbox" id="showPassword">
+                        <label for="showPassword">Show password</label>
+                    </form>
                 </div>
                 <div  class="twoInOne">
-                    <input type="submit" value="Sign in" class="inputBorder" style="width:100%;">
+                    <input class="inputButton sidesMargin" type="submit" value="Sign in" class="inputBorder" style="width:100%;">
                 </div>
             </div>
         </div>
         <div class="picAlign">
-            <img src="assets/images/account.png"  style="height:65%">
+            <img src="assets/images/account.png"  style="height:40%">
+            <p>qwerty</p>
         </div>
     </div>
 </div>
