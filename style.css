@@ -120,6 +120,7 @@ div.msg {
 
 .inputButton:hover {
     background-color: #363636;
+    cursor: pointer;
 }
 
 .picAlign {
