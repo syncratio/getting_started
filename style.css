@@ -4,6 +4,7 @@ body {
     margin: 0;
 }
 
+
 p {
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -121,23 +122,11 @@ div.msg {
     margin:0px 6px;
 }
 
-.inputBorderAdress {
+.inputAdressBorder {
     border: 2px solid white;
     border-radius: 5px;
     padding: 5px;
     margin:0px 6px;
-}
-
-.inputButton {
-    background-color: rgb(165, 165, 165);
-    color: aliceblue;
-    border-radius: 4px;
-    border-color: #36363600;
-}
-
-.inputButton:hover {
-    background-color: #3636362f;
-    cursor: pointer;
 }
 
 .picAlign {
@@ -148,8 +137,8 @@ div.msg {
     flex-direction: column;
 }
 
-.sidesMargin {
-    margin:0px 5%;
+.sidesButtonMargin {
+    margin:0px 6px;
 }
 
 .topToBottom {
@@ -171,4 +160,29 @@ div.msg {
 
 .marginLeftP {
     margin-left: 12px;
+}
+
+.clearButton {
+    background-color:rgba(20, 20, 20, 0);
+    border-color: #36363600;
+    color: rgb(255, 255, 255);
+    padding: 6px;
+}
+
+.clearButton:hover {
+    background-color: #d3d3d32f;
+    cursor: pointer;
+}
+
+.colorButton {
+    background-color: rgb(165, 165, 165);
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    border-color: #36363600;
+    padding: 8px 20px;
+}
+
+.colorButton:hover {
+    background-color: rgb(122, 122, 122);
+    cursor: pointer;
 }
