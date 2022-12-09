@@ -24,7 +24,7 @@ form {
 table {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin:auto;
-    border-collapse: separate;
+    border-collapse: collapse;
     width: 60%;
 }
 
@@ -36,6 +36,10 @@ th, td {
 
 tr:nth-child(even) {
     background-color: #313131;
+}
+
+tr:nth-child(even) td:not(:last-child) {
+    border-right-color: rgb(20, 20, 20);
 }
 
 .align {
@@ -141,6 +145,15 @@ tr:nth-child(even) {
     cursor: pointer;
 }
 
+.table-users {
+    margin-bottom: 100px;
+}
+
+.table-users td,
+.table-users th {
+    padding: 3px;
+}
+
 @media screen and (max-width: 768px) {
     div.pic-align {
         display: none;
@@ -162,13 +175,4 @@ tr:nth-child(even) {
 }
 .png {
     width: 220px;
-}
-
-.table-users {
-    margin-bottom: 100px;
-}
-
-.table-users td,
-.table-users th {
-    padding: 3px;
 }
