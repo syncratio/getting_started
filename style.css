@@ -79,7 +79,7 @@ tr:nth-child(even) td:not(:last-child) {
     margin:0px 6px;
 }
 
-.inputAdressBorder {
+.input-adress-border {
     border: 2px solid white;
     border-radius: 5px;
     padding: 5px;
@@ -94,17 +94,13 @@ tr:nth-child(even) td:not(:last-child) {
     flex-direction: column;
 }
 
-.sidesButtonMargin {
+.sides-button-margin {
     margin:0px 6px;
 }
 
 .top-to-bottom {
     display: flex;
     flex-direction: column;
-}
-
-.no-margin {
-    margin: 1%
 }
 
 .general-bottom-margin {
@@ -115,21 +111,9 @@ tr:nth-child(even) td:not(:last-child) {
     height:50%;
 }
 
-.margin-left-p {
-    margin-left: 12px;
+.small-p-size {
+    margin: 1% 0 0 12px;
 }
-
-/* .clearButton {
-    background-color:rgba(20, 20, 20, 0);
-    border-color: #36363600;
-    color: rgb(255, 255, 255);
-    padding: 6px;
-}
-
-.clearButton:hover {
-    background-color: #d3d3d32f;
-    cursor: pointer;
-} */
 
 .color-button {
     background-color: rgb(165, 165, 165);
@@ -154,6 +138,10 @@ tr:nth-child(even) td:not(:last-child) {
     padding: 3px;
 }
 
+.pic-png {
+    width: 220px;
+}
+
 @media screen and (max-width: 768px) {
     div.pic-align {
         display: none;
@@ -172,7 +160,4 @@ tr:nth-child(even) td:not(:last-child) {
     .registration-box {
         padding: 30px 20px
     }
-}
-.png {
-    width: 220px;
 }
