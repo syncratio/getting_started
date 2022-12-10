@@ -1,8 +1,163 @@
-#message {
-    background: #f9f9f9;
-    border: 1px solid #e5e5e5;
-    border-radius: 3px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
-    margin: 25px 0 20px;
-    padding: 12px;
+
+body {
+    background: rgb(20, 20, 20);
+    margin: 0;
+}
+
+
+p {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+form {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+table {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:auto;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+th, td {
+    border: 2px solid #313131;
+    padding: 1px;
+    color: white
+}
+
+tr:nth-child(even) {
+    background-color: #313131;
+}
+
+tr:nth-child(even) td:not(:last-child) {
+    border-right-color: rgb(20, 20, 20);
+}
+
+.align {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.registration-box {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 30px 40px;
+    margin: 10px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.left-column{
+    width: 60%;
+    padding-right: 34px;
+}
+
+.two-in-one {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-border {
+    border: 2px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    width: 100%;
+    margin:0px 6px;
+}
+
+.input-adress-border {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    margin:0px 6px;
+}
+
+.pic-align {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sides-button-margin {
+    margin:0px 6px;
+}
+
+.top-to-bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.general-bottom-margin {
+    margin-bottom: 10%;
+}
+
+.img-align {
+    height:50%;
+}
+
+.small-p-size {
+    margin: 1% 0 0 12px;
+}
+
+.color-button {
+    background-color: rgb(165, 165, 165);
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    border-color: #36363600;
+    padding: 8px 20px;
+    float: right;
+}
+
+.color-button:hover {
+    background-color: rgb(122, 122, 122);
+    cursor: pointer;
+}
+
+.table-users {
+    margin-bottom: 100px;
+}
+
+.table-users td,
+.table-users th {
+    padding: 3px;
+}
+
+.pic-png {
+    width: 220px;
+}
+
+@media screen and (max-width: 768px) {
+    div.pic-align {
+        display: none;
+    }
+
+    .registration-box,
+    .left-column {
+        width: 100%;
+    }
+    .left-column {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .registration-box {
+        padding: 30px 20px
+    }
 }

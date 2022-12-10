@@ -8,16 +8,29 @@ function main() {
 
 function getUserSpecificMessage(username) {
     if(username === "SidFj") {
-        return "You just lost $500!";
+        return "Greetings, creator.";
     }
-    let message = "Hello, " + username;
+    if(username === "syncratio") {
+        return "You just loss your time!";
+    }
+    let message = "Welcome to my practice page, " + username + ".";
     return message;
 }
 
 function promptForUsername() {
-    let username = prompt("Please enter your username") || 'Guest';
+    let username = prompt("Please enter your username:") || 'Guest';
     return username;
 }
+
+function todayWeCook() {
+    document.getElementById("wise").src = "assets/images/take-a-look.jpg";
+}
+
+function animation() {
+    document.getElementById('ani').className="msg";
+}
+
 document.addEventListener("DOMContentLoaded", function(event) {
     main();
+    animation();
 });
