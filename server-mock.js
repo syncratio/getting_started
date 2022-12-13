@@ -1,4 +1,4 @@
-function initStorage() {
+function _initStorage() {
     let users = [];
     let json = JSON.stringify(users);
     localStorage.setItem("users", json);
@@ -32,7 +32,7 @@ function getUserInfo(id, callback) {
     }, 500);
 }
 
-function validateUser(data) {
+function _validateUser(data) {
     return data.firstName && data.lastName && data.email && data.password;
 }
 
@@ -46,7 +46,7 @@ function createUser(data, callback) {
         console.log("Error parsing JSON");
     }
 
-    if (!validateUser(data)) {
+    if (!_validateUser(data)) {
         setTimeout(() => {
             callback(false);
         }, 500);
@@ -64,7 +64,7 @@ function createUser(data, callback) {
 }
 
 document.addEventListener("DOMContentLoaded", function (event) {
-    initStorage();
+    _initStorage();
 });
 
 
