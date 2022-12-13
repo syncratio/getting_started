@@ -33,17 +33,19 @@ function getUserInfo(id, callback) {
 }
 
 function _validateUser(data) {
+    console.log(data);  
     return data.firstName && data.lastName && data.email && data.password;
 }
 
-function createUser(data, callback) {
-    let json = localStorage.getItem("users");
+function createUser(formData, callback) {
+    const json = localStorage.getItem("users");
+    const data = Object.fromEntries(formData);
 
     let users = [];
     try {
         users = JSON.parse(json);
     } catch (e) {
-        console.log("Error parsing JSON");
+        console.log("Error parsing JSON. Storage is not initialized.");
     }
 
     if (!_validateUser(data)) {
