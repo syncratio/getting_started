@@ -115,7 +115,7 @@ tr:nth-child(even) td:not(:last-child) {
     margin: 1% 0 0 12px;
 }
 
-.color-button {
+.sign-up-button {
     background-color: rgb(165, 165, 165);
     color: rgb(255, 255, 255);
     border-radius: 4px;
@@ -124,7 +124,7 @@ tr:nth-child(even) td:not(:last-child) {
     float: right;
 }
 
-.color-button:hover {
+.sign-up-button:hover {
     background-color: rgb(122, 122, 122);
     cursor: pointer;
 }

@@ -16,35 +16,33 @@
                     <img src="assets/images/UnnamedLogo.png" style="width:20%;height:20%;">
                     <h1>Create your account</h1>
                 </div>
-                <div class="two-in-one general-bottom-margin">
-                    <input type="text" id="fname" class="input-border" placeholder="First name">
-                    <label for="fname"></label>
-                    <input type="text" id="lname" class="input-border" placeholder="Last name">
-                    <label for="lname"></label>
-                </div>
-                <div class="general-bottom-margin top-to-bottom">
-                    <input type="text" id="adr" class="input-adress-border" placeholder="Address">
-                    <label for="adr"></label>
-                    <p class="small-p-size">You can use letters, numbers & periods.</p>
-
-                </div>
-
-                <div class="general-bottom-margin">
-                    <div class="two-in-one">
-                        <input type="password" id="pass" class="input-border" placeholder="Password">
-                        <label for="pass"></label>
-                        <input type="password" id="cpass" class="input-border" placeholder="Confirm password">
-                        <label for="cpass"></label>
+                <form class="user-form">
+                    <div class="two-in-one general-bottom-margin">
+                        <input type="text" id="fname" name="fname" class="input-border" placeholder="First name">
+                        <label for="fname"></label>
+                        <input type="text" id="lname" class="input-border" placeholder="Last name">
+                        <label for="    lname"></label>
                     </div>
-                    <p class="small-p-size">Use 8 or more characters with a mix of letters, numbers & symbols.</p>
-                    <form>
+                    <div class="general-bottom-margin top-to-bottom">
+                        <input type="text" id="adr" class="input-adress-border" placeholder="Address">
+                        <label for="adr"></label>
+                        <p class="small-p-size">You can use letters, numbers & periods.</p>
+                    </div>
+                    <div class="general-bottom-margin">
+                        <div class="two-in-one">
+                            <input type="password" id="pass" class="input-border" placeholder="Password">
+                            <label for="pass"></label>
+                            <input type="password" id="cpass" class="input-border" placeholder="Confirm password">
+                            <label for="cpass"></label>
+                        </div>
+                        <p class="small-p-size">Use 8 or more characters with a mix of letters, numbers & symbols.</p>
                         <input type="checkbox" id="showPassword">
                         <label for="showPassword">Show password</label>
-                    </form>
-                </div>
-                <div>
-                    <button class="color-button sides-button-margin">Sign up</button>
-                </div>
+                    </div>
+                    <div>
+                        <button class="sign-up-button sides-button-margin" type="submit">Sign up</button>
+                    </div>
+                </form>
             </div>
         </div>
         <div class="pic-align">
