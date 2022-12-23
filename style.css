@@ -95,7 +95,7 @@ tr:nth-child(even) td:not(:last-child) {
 }
 
 .sides-button-margin {
-    margin:0px 6px;
+    margin: auto 6px;
 }
 
 .top-to-bottom {
@@ -121,7 +121,6 @@ tr:nth-child(even) td:not(:last-child) {
     border-radius: 4px;
     border-color: #36363600;
     padding: 8px 20px;
-    float: right;
 }
 
 .sign-up-button:hover {
@@ -140,6 +139,28 @@ tr:nth-child(even) td:not(:last-child) {
 
 .pic-png {
     width: 220px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.msg {
+    text-align: center;
+}
+
+.error-msg {
+    color: rgb(255, 0, 0);
+}
+
+.success-msg {
+    color: rgb(0, 112, 9);
+}
+
+.hidden {
+    visibility: hidden;
 }
 
 @media screen and (max-width: 768px) {
